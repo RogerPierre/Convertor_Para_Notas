@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15%;
+    color: yellowgreen;
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#MAIN_show{
+    background-color: rgb(6, 72, 6);
+    min-height: 150px;
+    min-width: 300px;
+    border-radius: 12px;
+}
+button{
+    background-color: rgb(105, 154, 105);
+    border: none;
+    height: 52px;
+    width: 50px;
+}
+div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+input{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 12px;
+    background-color: yellowgreen;
+    color: green;
+    border: none;
+    padding-left: 5%;
+}
+ul{
+    list-style: none;
+}
+input:hover,button:hover{
+    background-color: rgb(86, 114, 28);
+    color: yellowgreen;
+}
+button:active{
+    background-color: rgb(153, 223, 13);
+}
